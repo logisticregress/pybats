@@ -9,6 +9,7 @@ import numpy as np
 from datetime import datetime, date
 import seaborn as sns
 from pandas.plotting import register_matplotlib_converters
+from scipy.interpolate import interp1d
 register_matplotlib_converters()
 
 # Cell
